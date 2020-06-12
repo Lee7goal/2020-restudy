@@ -96,15 +96,3 @@ class DouBan:
             json.dump(self.content, f)
         print("保存数据到本地完毕...")
 
-
-if __name__ == '__main__':
-    # db = DouBan()
-    # db.get_choice_info()
-    # db.get_all_info()
-    # db.save()
-    with open('data.json', 'r') as f:
-        data = json.load(f)
-
-    print(len(data))
-
-
